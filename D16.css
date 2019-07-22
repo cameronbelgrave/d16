@@ -1,0 +1,146 @@
+
+body {
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:red;
+  color:white;
+  font-family: 'Shadows Into Light', cursive;
+  margin:0;
+
+}
+h1 {
+  color:black;
+  text-align: center;
+  background-color:white;
+}
+textarea{
+  text-align: center;
+  border:black 20px;
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+}
+.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  text-align: center;
+}
+
+.topnav li {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 15px;
+  display:inline-block;
+  vertical-align: middle;
+}
+
+.topnav li a {
+  display:inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+}
+
+.topnav li a:hover {
+  background-color: black;
+  color:red;
+}
+.topnav li a:active {
+  background:black;
+  color:red;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  z-index: 10;
+  vertical-align: middle
+}
+.dropbtn{
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 16px 16px;
+  background-color: black;
+  font-family: 'Shadows Into Light', cursive;
+  z-index:100;
+  position: fixed-left;
+  display:inline-block;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+.dropbtn a:hover{
+  color:red;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  color:white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 10;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-family: 'Shadows Into Light', cursive;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover{
+  background-color: black;
+  color:red;
+}
+
+@media screen and (max-width: 784px) {
+  ul.topnav li {
+    display: none;
+  }
+}
+@media screen and (min-width: 785px) {
+  ul.topnav button,  ul.topnav img.centerpic1 {
+    display:none;
+  }
+}
+#box {
+  text-align: center;
+  background-color: white ;
+  padding: 10px ;
+  border: 3px solid black ;
+  color:black;
+  width: 70%;
+  height:70%;
+  margin-left: auto;
+  margin-right: auto;
+  position: sticky;
+  margin-top: 20px;
+}
+
+h3{
+  font-size:30px;
+}
+footer{
+  display: inline;
+  text-align: center;
+}
+.feetz li{
+  list-style-type: none;
+  display:inline-block;
+  margin: 0;
+  padding-left:40px;
+  padding-right: 40px;
+  overflow: hidden;
+}
